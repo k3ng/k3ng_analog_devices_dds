@@ -1,9 +1,12 @@
-/*  dds.h version 2012082802
+/*  dds.h version 2020050901
 
     DDS Interface Library
 
     Anthony Good - anthony dot good at gmail dot com
     K3NG
+
+
+    DDS9851 Initialization Routine was written by George N2APB
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -24,11 +27,11 @@
 #define dds_h
 
 
-#define DDS9850 1    // contact me if you would like to add other chips
-#define DDS9851 2    // or if you would like contribute code for other chips
+#define DDS9850 1
+#define DDS9851 2
 #define DDS9834 3
 
-
+// #define DEBUG_DDS
 
 class dds {
   public:
